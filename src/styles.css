@@ -1,0 +1,9 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+.mindfulness-text {
+  font-size: 1.5rem; /* Tamaño de la letra más grande */
+  font-weight: 300; /* Grosor de la letra más fino */
+  text-align: center; /* Centrar el texto */
+  line-height: 1.6; /* Espaciado entre líneas */
+}

@@ -1,0 +1,44 @@
+<div class="container">
+  <!-- Frase inspiradora -->
+  <div class="row mt-5">
+    <div class="col text-center">
+      <h1 class="display-4">La paz nace de dentro. No la busques fuera</h1>
+    </div>
+  </div>
+
+  <!--Servicio UserService en el componente-página Inicio -->
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px;">
+          <h2 class="text-center">Bienvenido/a, {{ userData.name }}</h2>
+          <p class="text-center">Este es tu email: {{ userData.email }}</p>
+          <p class="text-center">Tu foto de usuario:</p>
+          <div class="d-flex justify-content-center">
+            <img [src]="userData.profilePicture" alt="Foto del perfil" style="max-width: 150px; max-height: 150px;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Imagen -->
+  <div class="row mt-5">
+    <div class="col">
+      <img src="assets/pazhome.jpg" alt="Pazhome" class="img-fluid">
+      <p class="text-muted text-sm mt-2">Foto de <a href="https://unsplash.com/es/@chelseacgates?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chelsea Gates</a> en <a href="https://unsplash.com/es/fotos/persona-en-pantalones-cortos-azules-sentada-en-la-orilla-de-la-playa-durante-el-dia-n8L1VYaypcw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Texto principal -->
+  <div class="row mt-5">
+    <div class="col text-center">
+      <p class="mindfulness-text">El mindfulness es una práctica que nos ayuda a <b>vivir el momento presente</b> con conciencia plena y atención plena. <br>Al aplicar el mindfulness en todos los ámbitos de la vida, podemos experimentar una mayor <b>calma</b>, <b>claridad mental</b> y <b>bienestar emocional</b>. <br>Nos permite cultivar la paz interior y encontrar <b>serenidad</b> en medio del caos.</p>
+    </div>
+  </div>
+</div>
+
